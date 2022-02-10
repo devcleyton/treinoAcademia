@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 769px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    html, body {
+        background-color: black;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+    html, body {
+        background-color: black;
+    }
+
+    .container.mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dadosAluno {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+    }
+
+    .treinos .treinoA {
+        display: flex;
+        margin: 30px;
+    }
+}
