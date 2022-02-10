@@ -1,3 +1,13 @@
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+      templateUrl : "treinoA.html"
+    })
+    .when("/red", {
+      templateUrl : "treinoB.html"
+    });
+  });
 const treino = {
     aluno: {
         nome: "CLEYTON",
@@ -66,6 +76,8 @@ const treino = {
 
     }
 }
+
+
 
 //SET DADOS ALUNO
 document.getElementById("nome").innerHTML = "NOME: " + treino.aluno.nome
