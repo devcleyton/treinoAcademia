@@ -101,4 +101,4 @@ document.getElementById("supinoRetoBarraCarga").innerHTML = "CARGA: " + treino.t
 document.getElementById("supinoRetoBarraDescanso").innerHTML = "DESCANSO: " + treino.treinoA.supinoRetoBarra.descanso
 
 
-console.table(treino)
+console.log(treino)
