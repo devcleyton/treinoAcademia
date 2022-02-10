@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" ng-app="myApp">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
     <title>Document</title>
 </head>
 
-<body ng-app="myApp">
+<body>
     <!-- DESKTOP -->
     <section class="container-desktop">
         <section class="desktop">
@@ -37,44 +38,14 @@
                     <a href="#!treinoB"><button>TREINO B</button></a>
                 </section>
                 <div ng-view></div>
-                <section class="treinoA">
-                    <section id="esteira">
-                        <p id="esteiraNome"></p>
-                        <p id="esteiraTempo"></p>
-                    </section>
-                    <section id="abdPranchaIsometria">
-                        <p id="abdpranchaNome"></p>
-                        <p id="abdpranchaSeries"></p>
-                        <p id="abdpranchaDescanso"></p>
-                    </section>
-                    <section id="crucifixoMaquina">
-                        <p id="crucifixoMaquinaNome"></p>
-                        <p id="crucifixoMaquinaSeries"></p>
-                        <p id="crucifixoMaquinaRepeticoes"></p>
-                        <p id="crucifixoMaquinaCarga"></p>
-                        <p id="crucifixoMaquinaDescanso"></p>
-                    </section>
-                    <section id="supinoRetoBarra">
-                        <p id="supinoRetoBarraNome"></p>
-                        <p id="supinoRetoBarraSeries"></p>
-                        <p id="supinoRetoBarraRepeticoes"></p>
-                        <p id="supinoRetoBarraCarga"></p>
-                        <p id="supinoRetoBarraDescanso"></p>
-                    </section>
-                    <section id="supinoInclinadoHealteres">
-                        <p id="supinoInclinadoHealteresNome"></p>
-                        <p id="supinoInclinadoHealteresSeries"></p>
-                        <p id="supinoInclinadoHealteresRepeticoes"></p>
-                        <p id="supinoInclinadoHealteresCarga"></p>
-                        <p id="supinoInclinadoHealteresDescanso"></p>
-                    </section>
 
-                </section>
             </section>
         </section>
     </section>
+    </section>
     <!-- END MOBILE -->
 </body>
+<script src="router.js"></script>
 <script src="script.js"></script>
 
 </html>
