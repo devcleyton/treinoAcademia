@@ -1,13 +1,16 @@
 var app = angular.module("myApp", ["ngRoute"]);
-app.config(function($routeProvider) {
+app.config(function ($routeProvider) {
     $routeProvider
-    .when("/treinoA", {
-      templateUrl : "treinoA.html"
-    })
-    .when("/treinoB", {
-      templateUrl : "treinoB.html"
-    });
-  });
+        .when("/", {
+            templateUrl: "index.html"
+        })
+        .when("/treinoA", {
+            templateUrl: "treinoA.html"
+        })
+        .when("/treinoB", {
+            templateUrl: "treinoB.html"
+        });
+});
 const treino = {
     aluno: {
         nome: "CLEYTON",
