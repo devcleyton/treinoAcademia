@@ -69,7 +69,7 @@ const treino = {
 
 //SET DADOS ALUNO
 document.getElementById("nome").innerHTML = "NOME: " + treino.aluno.nome
-document.getElementById("idade").innerHTML = "IDADE: " + treino.aluno.idade
+document.getElementById("idade").innerHTML = "IDADE: " + treino.aluno.idade + " ANOS"
 document.getElementById("codigoAluno").innerHTML = "CÓDIGO: " + treino.aluno.codigoAluno
 document.getElementById("treino").innerHTML = "TREINO: " + treino.aluno.treino
 document.getElementById("professor").innerHTML = "PROFESSOR: " + treino.aluno.professor
