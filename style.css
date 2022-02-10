@@ -55,7 +55,12 @@
     .buttons {
         display: flex;
         flex-direction: row;
-        gap: 50px;
+        gap: 10px;
+    }
+
+    .buttons button {
+        width: 100px;
+        height: 30px;
     }
 
     .treinos .treinoA {
