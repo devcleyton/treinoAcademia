@@ -1,10 +1,10 @@
 var app = angular.module("myApp", ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider
-    .when("/", {
+    .when("/treinoA", {
       templateUrl : "treinoA.html"
     })
-    .when("/red", {
+    .when("/treinoB", {
       templateUrl : "treinoB.html"
     });
   });
