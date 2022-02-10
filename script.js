@@ -100,5 +100,12 @@ document.getElementById("supinoRetoBarraRepeticoes").innerHTML = "REPETIÇÕES: 
 document.getElementById("supinoRetoBarraCarga").innerHTML = "CARGA: " + treino.treinoA.supinoRetoBarra.carga
 document.getElementById("supinoRetoBarraDescanso").innerHTML = "DESCANSO: " + treino.treinoA.supinoRetoBarra.descanso
 
+//SET DADOS SUPINO HEALTERES
+document.getElementById("supinoInclinadoHealteresNome").innerHTML = treino.treinoA.supinoInclinadoHealteres.nome
+document.getElementById("supinoInclinadoHealteresSeries").innerHTML = "SÉRIES: " + treino.treinoA.supinoInclinadoHealteres.serie
+document.getElementById("supinoInclinadoHealteresRepeticoes").innerHTML = "REPETIÇÕES: " + treino.treinoA.supinoInclinadoHealteres.repeticoes
+document.getElementById("supinoInclinadoHealteresCarga").innerHTML = "CARGA: " + treino.treinoA.supinoInclinadoHealteres.carga
+document.getElementById("supinoInclinadoHealteresDescanso").innerHTML = "DESCANSO: " + treino.treinoA.supinoInclinadoHealteres.descanso
+
 
 console.log(treino)
