@@ -74,7 +74,7 @@ document.getElementById("codigoAluno").innerHTML = "CÓDIGO: " + treino.aluno.co
 document.getElementById("treino").innerHTML = "TREINO: " + treino.aluno.treino
 document.getElementById("professor").innerHTML = "PROFESSOR: " + treino.aluno.professor
 document.getElementById("vencimentoTreino").innerHTML = "VENCIMENTO TREINO: " + treino.aluno.vencimentoTreino
-document.getElementById("rotina").innerHTML = "ROTINA: " + treino.aluno.rotina
+// document.getElementById("rotina").innerHTML = "ROTINA: " + treino.aluno.rotina
 
 //SET DADOS TREINO A
 //SET DADOS ESTEIRA
