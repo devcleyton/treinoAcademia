@@ -60,9 +60,15 @@
     }
 
     .buttons button {
-        width: 100px;
-        height: 30px;
+        width: 200px;
+        height: 50px;
         background-color: transparent;
+        border: 1px solid white;
+    }
+
+    .buttons button:hover {
+        background-color: white;
+        color: black;
         border: 1px solid white;
     }
 
