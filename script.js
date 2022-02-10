@@ -4,7 +4,7 @@ const treino = {
         idade: 27,
         codigoAluno: 22328974,
         treino: "ADAPTAÇÃO",
-        professor: "FELIPE DO NASCIMENTO LEDES DEMATTE",
+        professor: "FELIPE DEMATTE",
         vencimentoTreino: "04/03/2022",
         rotina: "TREINO A"
     },
